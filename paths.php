@@ -82,6 +82,7 @@ foreach ($paths as $name => $path)
 	if ( ! isset($GLOBALS['laravel_paths'][$name]))
 	{
 		// will need to change this
+		// test
 		$GLOBALS['laravel_paths'][$name] = realpath($path).DS;
 	}
 }
